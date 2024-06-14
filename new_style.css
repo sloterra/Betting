@@ -1,0 +1,48 @@
+	.games-layout {
+  background: rgb(59,29,163);
+  background: linear-gradient(56deg, rgba(59,29,163,1) 0%, rgba(34,18,97,1) 100%) !important;
+}
+.grid-event._live .grid-event__title {
+  background: rgba(0,0,0,0.3) !important;
+}
+._tablet .games-nav__item:not(.search-button) {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.2) 100%) !important;
+}
+.slider{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.15) 100%) !important;
+}
+.grid-event__title{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2 );
+}
+.grid-event__content {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.08) 100%) !important;
+}
+.grid-event__title._football{
+  background: rgba(0,0,0,0.3) !important;
+}
+.grid-event__title._tennis{
+  background: rgba(0,0,0,0.3) !important;
+}
+.lobby-filters__inner{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.15) 100%) !important;
+}
+.games-sidebar .coupon{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.05) 100%) !important;
+}
+.coupon__placebet-btn{
+  background: #3ca94a !important;
+}
+.iFrame-container {
+  --safe-area-inset-bottom: env(safe-area-inset-bottom);
+  height: calc(var(--vh, 1vh)*100 - (60)px - var(--safe-area-inset-bottom))
+
+  }
+@media screen and (max-width: 980px){
+  .games-nav {
+      background: rgb(59,29,163);
+      background: linear-gradient(56deg, rgba(59,29,163,1) 0%, rgba(34,18,97,1) 100%) !important;
+      -webkit-backdrop-filter: blur(24px);
+      backdrop-filter: blur(24px);
+  }
+}
